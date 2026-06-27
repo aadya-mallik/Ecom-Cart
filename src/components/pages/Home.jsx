@@ -99,11 +99,15 @@ function ProductCard({ data }) {
 
         <a href="#">
           <img
-            className="mx-auto w-full h-full object-contain"
+            className="mx-auto h-full dark:hidden"
             src={thumbnail}
             alt=""
           />
-          
+          <img
+            className="mx-auto hidden h-full dark:block"
+            src="https://flowbite.s3.amazonaws.com/blocks/e-commerce/iphone-dark.svg"
+            alt=""
+          />
         </a>
       </div>
       <div className="pt-6">
