@@ -103,8 +103,6 @@ function ProductCard({ data }) {
             src={thumbnail}
             alt=""
           />
-          
-          
         </a>
       </div>
       <div className="pt-6">
